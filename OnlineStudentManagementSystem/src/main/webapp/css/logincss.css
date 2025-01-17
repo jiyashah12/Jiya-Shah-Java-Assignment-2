@@ -11,7 +11,7 @@ body {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 300px; /* Set the width of the container */
+    width: 300px;
 }
 
 h1 {
@@ -36,12 +36,12 @@ input[type="submit"] {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    width: 100%; /* Make the button fill the width of the container */
+    width: 100%;
 }
 
 .error-message {
     color: red;
-    margin-top: 20px; /* Adds space between the form and the error message */
-    text-align: center; /* Centers the error message */
+    margin-top: 20px;
+    text-align: center;
 }
 

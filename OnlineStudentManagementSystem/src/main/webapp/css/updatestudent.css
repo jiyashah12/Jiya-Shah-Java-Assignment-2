@@ -1,11 +1,9 @@
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and page layout */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -13,7 +11,6 @@ body {
     margin: 0;
 }
 
-/* Page title */
 h1 {
     text-align: center;
     margin-top: 20px;
@@ -21,42 +18,39 @@ h1 {
     color: #333;
 }
 
-/* Box container for the form */
 .form-box {
     width: 100%;
-    max-width: 450px;  /* Width of the form box */
+    max-width: 450px;
     margin: 30px auto;
-    padding: 15px;  /* Reduced padding to make the form box smaller */
+    padding: 15px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 550px;  /* Adjusted for dynamic height */
+    height: 550px;
 }
 
-/* Form container */
+
 .form-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    justify-content: space-between; /* Ensures elements are spaced evenly */
+    justify-content: space-between;
 }
 
-/* Input fields */
 input[type="text"],
 input[type="email"],
 input[type="number"],
 input[type="submit"] {
     width: 100%;
-    padding: 8px;  /* Reduced padding for shorter input fields */
-    margin: 6px 0;  /* Reduced margin between input fields */
+    padding: 8px;
+    margin: 6px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
 }
 
-/* Focus styles for input fields */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus {
@@ -64,7 +58,6 @@ input[type="number"]:focus {
     outline: none;
 }
 
-/* Submit button style */
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -80,20 +73,17 @@ input[type="submit"]:hover {
 }
 
 
-/* Form labels */
 label {
-    font-size: 16px;  /* Reduced label font size */
+    font-size: 16px;
     color: #333;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-/* Spacing between form elements */
 form {
     width: 100%;
 }
 
-/* Success/Error message */
 h3 {
     text-align: center;
     margin-top: 10px;
@@ -101,9 +91,8 @@ h3 {
     color: #333;
 }
 
-/* Error message */
 h3.style-error {
     color: red;
 }
 
-/*
+
