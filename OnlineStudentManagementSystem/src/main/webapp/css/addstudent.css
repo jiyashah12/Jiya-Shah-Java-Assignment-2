@@ -1,0 +1,119 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 26px;
+    color: #333;
+}
+
+/* Box container for the form */
+.form-box {
+    width: 100%;
+    max-width: 450px;  /* Width of the form box */
+    margin: 30px auto;
+    padding: 15px;  /* Reduced padding to make the form box smaller */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 650px;  /* Set a fixed height for the box */
+}
+
+/* Form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between; /* Ensures elements are spaced evenly */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;  /* Reduced padding for shorter input fields */
+    margin: 6px 0;  /* Reduced margin between input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Focus styles for input fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Submit button style */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Form labels */
+label {
+    font-size: 16px;  /* Reduced label font size */
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Spacing between form elements */
+form {
+    width: 100%;
+}
+
+/* Success/Error message */
+h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Error message */
+h3.style-error {
+    color: red;
+}
+
+/* Success message */
+h3.style-success {
+    color: green;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #777;
+}
