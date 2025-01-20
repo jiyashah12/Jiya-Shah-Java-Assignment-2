@@ -27,28 +27,7 @@ The Online Student Management System is a web-based application that allows admi
 
 ## Project Structure
 
-OnlineStudentManagementSystem/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── Login.java
-│   │   │   ├── Dashboard.java
-│   │   │   ├── AddStudent.java
-│   │   │   ├── ViewStudent.java
-│   │   │   ├── UpdateStudent.java
-│   │   │   ├── DeleteStudent.java
-│   │   │   ├── Logout.java
-│   │   ├── webapp/
-│   │   │   ├── css/
-│   │   │   │   ├── addstudent.css
-│   │   │   │   ├── dashboard.css
-│   │   │   │   ├── logincss.css
-│   │   │   │   ├── updatestudent.css
-│   │   │   │   ├── viewstudent.css
-│   │   │   ├── WEB-INF/
-│   │   │   │   ├── web.xml
-│   │   │   ├── *.jsp (JSP Pages)
-├── pom.xml
+![image](https://github.com/user-attachments/assets/b7c7960e-ff30-4061-95d3-c483825adc69)
 
 
 ## Installation Steps
